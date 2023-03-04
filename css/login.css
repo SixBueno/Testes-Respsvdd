@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@700&family=Montserrat:wght@300;500;700&display=swap');
+
+
+
+/*=============================================
+             SECÇÃO LOGIN
+==============================================*/
+
+
+body{
+    background-image: url(../imagens/bannerGamer.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin-top: 10vh;
+}
+
+.container-login{
+    display: flex;
+    justify-content: center;
+}
+
+.card-login{
+    background-color: #ffffff80;
+    padding: 30px;
+    border-radius: 5%;
+    box-shadow: 3px 3px 1px 0px #00000070;
+}
+
+h1{
+    text-align: center;
+    margin-bottom: 20px;
+    color: black;
+}
+
+.label-float input{
+    width: 100%;
+    padding:  5px 5px;
+    display: inline-block;
+    border: 0;
+    border-bottom: 2px solid #4E9443;
+    background-color: transparent;
+    outline: none;
+    min-width: 180px;
+    font-size: 1rem;
+    transition: all .3s ease-out;
+    border-radius: 0;
+}
+
+.label-float{
+    position: relative;
+    padding-top: 13px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.label-float input:focus{
+    border-bottom: 2px solid #4E9443;
+}
+
+.label-float label{
+    color: black;
+    pointer-events: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-top: 13px;
+    transition: all .3s ease-out;
+}
+
+.label-float input:focus + label,
+.label-float input:valid + label{
+    font-size: 13px;
+    margin-top: 0;
+    color: black;
+}
+
+button{
+    background-color: transparent;
+    color: black;
+    padding: 7px 10px;
+    font-weight: bold;
+    font-size: .8rem;
+    margin-top: 20px;
+    border-radius: 4px;
+    border-color: #4E9443;
+    cursor: pointer;
+    outline: none;
+    transition: all .4s ease-out;
+}
+
+button:hover{
+    background-color: #4E9443;
+    color: white;
+}
+
+.justify-center{
+    display: flex;
+    justify-content: center;
+}
+
+hr{
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+.fa-eye{
+    position: absolute;
+    top: 20px;
+    right: 10px;
+    cursor: pointer;
+}
+
+#msgError{
+    text-align: center;
+    color: red;
+    background-color: #ffbbbb;
+    padding: 10px;
+    border-radius: 4px;
+    display: none;
+}

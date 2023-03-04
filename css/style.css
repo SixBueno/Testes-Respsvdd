@@ -1,0 +1,1945 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@700&family=Montserrat:wght@300;500;700&display=swap');
+
+
+/*=========================================
+               FONTE UNIVERSAL
+===========================================*/
+*{
+    font-family: 'Montserrat', sans-serif;
+    
+}
+
+hr:not([size]) {
+    height: 2px;
+}
+
+.vendas{
+    background-color: #f1f1f1;
+    height: 100vh;
+}
+
+/*=========================================
+               BOTÃO UNIVERSAL
+===========================================*/
+
+.comprar{
+    text-transform: uppercase;
+    background-color: red;
+    border: 0;
+    margin-top: 20px;
+    padding: 8px 20px;
+    border-radius: 5px;
+}
+
+.comprar a{
+    text-decoration: none;
+    color: white;
+}
+
+.comprar:hover{
+    background-color: tomato;
+}
+
+
+
+/*=============================================
+             ÁREA HEADER CONTATOS
+==============================================*/
+
+.area-contatos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    background-color: #181717;
+    position: relative;
+}
+
+.container{
+    width: 90%;
+    margin: 0 auto;
+}
+
+.header-contact{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.contatos-header{
+    display: flex;
+    justify-content: space-between;
+    width: 65%;
+}
+
+.contacts{
+    display: flex;
+    align-content: center;
+    align-items: center;
+}
+
+.contacts img{
+    width: 24px;
+}
+
+.contacts a{
+    text-decoration: none;
+}
+
+.contacts p{
+    margin: 0;
+    color: white;
+    padding-left: 10px;
+    font-size: 0.9rem;
+}
+
+.contacts p:hover{
+    color: #ccc;
+}
+
+/*==================================
+        ÁREA HEADER REDES SOCIAIS
+====================================*/
+
+.redes-sociais{
+    display: flex;
+    justify-content: space-between;
+    width: 200px;
+}
+
+.redes-sociais a{
+    display: flex;
+
+}
+
+.redes-sociais img{
+    width: 24px;
+    transition: all 1s;
+}
+
+.redes-sociais img:hover{
+    -webkit-transform: rotateZ(360deg);
+    transform: rotateZ(360deg);
+}
+
+.menu-barra{
+    display: flex
+}
+
+.barra-menu{
+    display: none;
+}
+
+.menu-none{
+    display: none;
+}
+
+
+/*=================================
+    ÁREA HEADER LOGIN - SEARCH
+===================================*/go
+
+.login-search{
+    display: flex;
+    align-items: center;
+    height: 150px;
+    margin-bottom: 20px;
+    background-color: white;
+}
+
+.header-login{
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+.menu-login{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 65%;
+    height: 100%;
+}
+
+.menu-login .logo{
+    width: 200px;
+}
+
+form{
+    display: flex;
+    width: 70%;
+}
+
+form input{
+    font-size: 1.2rem;
+    padding: 10px 15px;
+    border-radius: 5px;
+    border: 0;
+    outline: 0px;
+    width: 100%;
+}
+
+form button{
+    background-color: transparent;
+    border: 0;
+}
+
+form img{
+    display: flex;
+    width: 20px;
+    margin-left: -32px;
+}
+/*==================================
+        ÁREA LOGIN - USUÁRIO
+====================================*/
+
+.minha-conta{
+    display: flex;
+    justify-content: space-between;
+    flex: 1;
+    align-items: center;
+}
+
+.usuario{
+    display: flex;
+    align-items: center;
+}
+
+.usuario a{
+    text-decoration: none;
+}
+
+.usuario p:hover{
+    color: #ccc;
+}
+
+.usuario p{
+    color: white;
+}
+
+.usuario img{
+    width: 30px;
+    margin-right: 10px;
+    margin-left: 50px;
+}
+
+.usuario .sinal{
+    width: 15px;
+    margin-left: 8px;
+}
+
+.itens-carrinho img{
+    width: 30px;
+}
+
+.minha-conta-425{
+    display: none;
+}
+
+/*===================================
+        ÁREA HEADER OPÇÕES DO MENU
+=====================================*/
+
+.opc-menu{
+    display: flex;
+    align-items: center;
+    height: 50px;
+}
+.menu{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+}
+.menu a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 1rem;
+    font-weight: 600;
+    color: black;
+}
+
+.menu a:hover{
+    color: #4E9443;
+}
+
+
+/*===================================
+        SESSÃO BANNER PRINCIPAL
+=====================================*/
+
+.banner-principal{
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500px;
+}
+
+.banner-gb1{
+    background-image: url(../imagens/banner-gb1.jpg);
+}
+
+.banner-gb2{
+    background-image: url(../imagens/banner-gb2.jpg);
+}
+
+.banner-gb3{
+    background-image: url(../imagens/banner-gb3.jpg);
+}
+
+
+
+.card-jogos{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 100%;
+}
+
+.card-banner{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 60%;
+    height: 500px;
+}
+
+.card-banner img{
+    width: 90%;
+    margin: 0;
+    padding: 0;
+}
+
+.card-banner p{
+    font-size: 2rem;
+    font-family: 'Cinzel Decorative', cursive;
+    font-weight: 700;
+    text-align: center;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+/*=============================
+        HISTORIA BUENAS
+===============================*/
+
+.historia-buenas {
+    
+}
+
+
+.historia-buenas h2 {
+    justify-content: center;
+    text-transform: uppercase;
+    display: flex;
+    padding: 20px;
+    
+}
+
+
+/*=============================
+        SESSÃO DESTAQUES
+===============================*/
+
+.card-flex{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.cards-destaques p{
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 15px;
+}
+
+.linha-hr{
+    border: 0;
+    height: 2px;
+    background-image: linear-gradient(to right, transparent, #4E9443, transparent);  
+}
+
+.cards-destaques .cards-00{
+    background-image: url(../imagens/bannerGamer.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 30%;
+    height: 400px;
+}
+
+.quadro-branco{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    height: 50%;
+    background-color: white;
+}
+
+.cards-00{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.cards-00 img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    width: 13%;
+}
+
+.card-info{
+    max-width: 150px;
+    background-color: #ccc;
+}
+
+.card-info p{
+    margin: 0;
+    font-size: 0.8rem;
+    color: white;
+}
+
+.info-produtos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.info-produtos p{
+    max-width: 190px;
+    font-size: 0.8rem;
+    color: white;
+    margin: 0;
+}
+
+.info-produtos .preco{
+    color: red;
+    font-size: 1.3rem;
+}
+
+
+/*=============================
+        SESSÃO PRODUTOS
+===============================*/
+
+
+.produtos{
+    margin-bottom: 100px;
+}
+
+.cards-produtos p{
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 20px;
+   
+    color: #4E9443;
+}
+
+hr {
+    margin: 1rem 0;
+    background-color: #ccc;
+    border: 0;
+    opacity: .25;
+}
+
+
+.linha-hr {
+    border: 0;
+    height: 2px;
+    background-image: linear-gradient(to right, transparent, #4E944E, transparent);
+    opacity: 1;
+  }
+
+.card-2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    width: 27%;
+    height: 350px;
+    border: 1px solid #ccc;
+    margin-bottom: 3%;
+}
+
+.card-2 img{
+    width: 25%;
+}
+
+.card-2 .img2{
+    width: 47%;
+}
+
+.card-2 .img3{
+    width: 44%;
+}
+
+.card-2 p{
+    font-size: 0.8rem;
+    margin: 0;
+}
+
+.card-2 .preco{
+    color: red;
+    font-size: 1.3rem;
+}
+
+/*=============================
+        SESSÃO FOOTER
+===============================*/
+footer{
+    display: flex;
+    align-items: center;
+    background-color: #4E9443;
+    width: 100%;
+    height: 300px;
+}
+
+.footer-flex{
+    display: flex;
+}
+
+.footer-column{
+    flex-direction: column;
+    flex: 1;
+    width: 200px;
+    height: 200px;
+}
+
+.footer-column h4{
+    text-transform: uppercase;
+    color: white;
+    font-weight: 300;
+}
+
+.footer-column img{
+    width: 70%;
+}
+
+.footer-column p{
+    font-size: 0.9rem;
+    font-weight: 300;
+    line-height: 5px;
+    color: white;
+}
+
+.footer-hr{
+    border: 0;
+    height: 2px;
+    background-image: linear-gradient(to right, transparent, #ccc, transparent);  
+}
+
+.copy{
+    font-size: 0.6rem;
+    font-weight: 300;
+    margin: 0;
+    color: white;
+    text-align: center;
+}
+
+/*==============================================
+        ÁREA HEADER REDES SOCIAIS FOOTER
+================================================*/
+
+.redes-sociais-footer{
+    display: none;
+    justify-content: space-between;
+}
+
+.redes-sociais-footer img{
+    width: 20px;
+    transition: all 1s;
+}
+
+.redes-sociais-footer img:hover{
+    -webkit-transform: rotateZ(360deg);
+    transform: rotateZ(360deg);
+}
+
+
+
+/*=============================
+         @MEDIA QUERY
+===============================*/
+
+@media (min-width: 769px) and (max-width: 1024px){
+    h4 {
+        font-size: 1.2rem;
+    }
+
+    .quadro-branco{
+        width: 70%;
+        height: 50%;
+        background-color: white;
+        margin-bottom: 10px;
+    }
+
+    .cards-00 img{
+        width: 15%;
+    }
+
+    .info-produtos p {
+        max-width: 200px;
+        font-size: 1rem;
+    }
+
+    div .mouseInfo span {
+        font-size: 1rem;
+    }
+
+        /* venda mouse */
+
+    div .mouseImg{
+        background-size: 100%;
+        background-color: white;
+    }
+
+    /* venda controle */
+
+    div .controleImg{
+
+    }
+
+    div .controleInfo span {
+        font-size: 1rem;
+    }
+
+    /* venda caixa de som */
+
+    div .caixasomImg{
+        background-color: white;
+    }
+
+     /* venda Microfone */
+
+     div .microfoneImg{
+        flex: 2;
+     }
+
+      /* venda Celular */
+
+     div .celularImg{
+        background-color: white;
+        background-size: 130%;
+        flex: 2;
+     }
+
+      /* venda CPU */
+
+      div .cpuImg{
+        background-color: white;
+        background-size: 150%;
+        flex: 2;
+     }
+
+    /* cards carousel */
+
+       .card-title{
+        font-size: 1rem;
+       }
+
+}
+
+@media (min-width: 426px) and (max-width: 768px){
+
+    .banner-principal,
+    .banner-playstation,
+    .banner-xbox,
+    .banner-nintendo{
+        height: 300px;
+
+    }
+
+    .menu-none{
+        display: flex;
+    }
+
+    .menu{
+        flex-direction: column;
+        justify-content: space-around;
+        text-align: center;
+        background-color: #4E9443;
+        height: 300px;
+        width: 100vw;
+        position: absolute;
+        top: 40px;
+        right: 0;
+    }
+
+    .menu a{
+        color: white;
+    }
+
+    .menu a:hover{
+        color: #ccc;
+    }
+    
+    .contatos-header{
+        width: 85%;
+    }
+
+    .barra-menu{
+        display: inline-block;
+    }
+
+    .usuario img{
+        margin-left: 20px;
+    }
+
+    .opc-menu{
+        display: none;
+    }
+
+    .card-banner p{
+        font-family: 'Cinzel Decorative', cursive;
+    }
+
+    .info-produtos p{
+        font-size: 0.7rem;
+        font-weight: 500;
+    }
+
+    .info-produtos .preco{
+        font-size: 0.9rem;
+    }
+
+    .cards-destaques .cards-00{
+        width: 30%;
+        height: 230px;
+    }
+
+    .quadro-branco{
+        width: 56%;
+        height: 80%;
+    }
+
+    .card-banner img {
+        width: 100%;
+    }
+
+    .card-banner p {
+        font-size: 2rem;
+        line-height: 40px;
+    }
+
+    .cards-00{
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+
+    .cards-00 img{
+        width: 12%;
+    }
+
+    .cards-destaques .cards-00{
+        width: 30%;
+        height: 200px;
+    }
+
+    .card-2{
+        width: 32%;
+    }
+
+    .comprar{
+        margin-top: 15px;
+        padding: 4px 10px;
+        font-size: 0.7rem;
+    }
+
+    .footer-column h4{
+        font-size: 0.9rem;
+    }
+
+    .footer-column P{
+        font-size: 0.8rem;
+    }
+
+    .redes-sociais{
+        display: none;
+    }
+
+    .redes-sociais-footer{
+        display: flex;
+        width: 160px;
+    }
+
+
+
+    /*area playstation*/
+
+    .card-playstation{
+        min-width: 45%;
+    }
+
+    /*area mouse tablet*/
+
+    .comprarMouse{
+        flex-direction: column;
+        margin-top: 30px;
+        flex: 3;
+    }
+
+    div .mouseImg{
+        background-size: 100%;
+    }
+
+    div .mouseInfo p {
+        font-size: 0.9rem;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .produtos-relacionados h3 {
+        padding-top: 30px;
+    }
+
+    /*area controle tablet*/
+
+    .comprarControle{
+        flex-direction: column;
+        margin-top: 30px;
+        flex: 3;
+    }
+
+    div .controleImg{
+        background-size: 100%;
+    }
+
+    div .controleInfo p {
+        font-size: 0.9rem;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .produtos-relacionados h3 {
+        padding-top: 30px;
+    }
+
+
+    /*area caixa som tablet*/
+
+    .comprarCaixasom{
+        flex-direction: column;
+        margin-top: 30px;
+        flex: 3;
+    }
+
+    div .caixasomImg{
+        background-size: 130%;
+    }
+
+    div .caixasomInfo p {
+        font-size: 0.9rem;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+     /*area microfone tablet*/
+
+     .comprarMicrofone{
+        flex-direction: column;
+        margin-top: 30px;
+
+    }
+
+    div .microfoneImg{
+        background-size: 100%;
+    }
+
+    div .microfoneInfo p {
+        font-size: 0.9rem;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    /*area celular tablet*/
+
+    .comprarCelular{
+        flex-direction: column;
+        margin-top: 30px;
+        flex: 3;
+    }
+
+    div .celularImg{
+        background-size: 100%;
+    }
+
+    div .celularInfo p {
+        font-size: 0.9rem;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .produtos-relacionados h3 {
+        padding-top: 30px;
+    }
+
+
+    /*area CPU tablet*/
+
+    .comprarCPU{
+        flex-direction: column;
+        margin-top: 30px;
+        flex: 3;
+    }
+
+    div .cpuImg{
+        background-size: 120%;
+        background-color: white;
+    }
+
+    div .cpuInfo p {
+        font-size: 0.9rem;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .produtos-relacionados h3 {
+        padding-top: 30px;
+    }
+
+
+
+    /*cards 2 por 2*/
+
+    .card{
+        min-width: 22px;
+    }
+
+    .cards-carousel{
+        flex-wrap: wrap;
+    }
+
+}
+
+
+@media (max-width: 425px){
+
+    .header-minhaConta{
+
+    }
+
+    .minha-conta-425{
+        display: flex;
+        width: 100%;
+    }
+
+    .usuario img {
+        width: 20px;
+        margin: 0 10px;
+    }
+
+    .usuario p{
+        margin: 0;
+    }
+
+    .itens-carrinho img {
+        width: 25px;
+    }
+
+    .barra-menu{
+        display: inline-block;
+    }
+
+    .menu-none{
+        display: flex;
+    }
+
+    .menu{
+        flex-direction: column;
+        justify-content: space-around;
+        text-align: center;
+        background-color: #4E9443;
+        height: 300px;
+        width: 100vw;
+        position: absolute;
+        top: 40px;
+        right: 0;
+    }
+
+    .menu a{
+        color: white;
+    }
+
+    .menu a:hover{
+        color: #ccc;
+    }
+    
+    .contatos-header{
+        width: 85%;
+    }
+
+    .opc-menu{
+        display: none;
+    }
+
+    .redes-sociais{
+        display: none;
+    }
+
+    .banner-principal,
+    .banner-playstation,
+    .banner-xbox,
+    .banner-nintendo{
+        height: 50%;
+
+    }
+
+    .contatos-header{
+        display: none;
+    }
+
+    .header-contact{
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .menu-login .logo {
+        width: 50px;
+    }
+
+    .minha-conta{
+        display: none;
+    }
+
+    .menu-login{
+        width: 100%;
+    }
+
+    form{
+        width: 100%;
+    }
+
+    form img{
+        width: 18px;
+    }
+
+    form input{
+        font-size: 1rem;
+        padding: 7px 10px;
+        margin-left: 15px;
+    }
+
+    .pesquisar{
+        padding: 0;
+    }
+
+    #banner-principal{
+        height: 180px;
+        margin-bottom: 20px;
+    }
+
+    .card-jogos{
+        margin-bottom: 20px;
+    }
+
+    .card-banner p{
+        font-size: 0.8rem;
+        font-weight: 700;
+        line-height: 16px;
+    }
+
+    .card-banner {
+        height: 175px;
+    }
+
+    .card-flex{
+        flex-direction: column;
+    }
+    
+    .cards-destaques .cards-00 {
+        width: 100%;
+        height: 250px;
+    }
+
+    .quadro-branco {
+        width: 50%;
+        height: 80%;
+        margin-top: 10px;
+    }
+
+    .cards-destaques p {
+        font-size: 0.8rem;
+        margin: 0;
+    }
+
+    .cards-00{
+        margin-bottom: 20px;
+    }
+
+    .comprar{
+        text-transform: uppercase;
+        background-color: red;
+        border: 0;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        padding: 4px 8px;
+        border-radius: 5px;
+
+    }
+
+    .comprar a{
+        font-size: 12px;
+    }
+
+    .info-produtos .preco {
+        color: red;
+        font-size: 1rem;
+    }
+
+    .cards-00 img {
+        width: 30%;
+        height: 100px;
+    }
+
+    .cards-produtos p {
+        font-size: 0.8rem;
+        margin-top: 0px;
+        margin-bottom: 15px;
+
+        
+    }
+
+    .card-flex {
+        align-items: center;
+    }
+
+    .card-2 {
+        width: 70%;
+        margin-bottom: 20px;
+    }
+
+    .produtos{
+        margin-bottom: 50px;
+    }
+
+    footer {
+        height: 250px;
+    }
+
+    .footer-flex{
+        flex: 1;
+    }
+
+    .footer-column {
+        height: 150px;
+    }
+
+    .footer-column h4 {
+        font-size: 0.5rem;
+        font-weight: 500;
+    }
+
+    .footer-column P {
+        font-size: 0.3rem;
+        line-height: 2px;
+    }
+
+    .redes-sociais-footer {
+        width: 90px;
+    }
+
+    .redes-sociais-footer a img{
+        width: 12px;
+        height: 12px;
+    }
+
+    .footer-column{
+        flex: 1;
+    }
+
+    .footer-column img {
+        width: 85%;
+    }
+
+    .copy {
+        font-size: 0.3rem;
+        font-weight: 300;
+    }
+
+    .card-playstation{
+        min-width: 90%;
+    }
+
+    /* MEDIA CARROSSEL */
+    .card{
+        min-width: 22px;
+    }
+
+    .cards-carousel{
+        flex-wrap: wrap;
+    }
+
+
+    /*mouse-flex-colunm*/
+
+    .comprarMouse{
+        flex-direction: column;
+        margin-top: 30px;
+        flex: 1;
+    }
+
+    div .mouseImg{
+        flex: 1;
+        background-size: 100%;
+    }
+
+    div .mouseInfo{
+        flex: 1;
+    }
+
+    .vendas,
+    .comprarMouse,
+    .comprarControle,
+    .comprarMicrofone,
+    .vendasGame{
+        max-height: 70vh;
+    }
+
+    div .mouseInfo p {
+        font-size: 0.7rem;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .pix .fa-pix{
+        font-size: 18px;
+    }
+
+    .cartao .fa-credit-card{
+        font-size: 18px;
+    }
+
+    div .cashback .p2 {
+        font-size: 0.8rem;
+    }
+
+    .produtos-relacionados h3 {
+        padding-top: 30px;
+        font-size: 1rem;
+    }
+
+    div .mouseInfo span {
+        font-size: 0.7rem;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    div .btn-carrinho button {
+        font-size: 0.7rem;
+    }
+
+
+    /*controle-flex-colunm*/
+
+    .comprarControle{
+        flex-direction: column;
+        margin-top: 30px;
+        flex: 1;
+    }
+
+    div .controleImg{
+        flex: 1;
+        background-size: 100%;
+    }
+
+    div .controleInfo{
+        flex: 1;
+    }
+
+    div .controleInfo p {
+        font-size: 0.7rem;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .pix .fa-pix{
+        font-size: 18px;
+    }
+
+    .cartao .fa-credit-card{
+        font-size: 18px;
+    }
+
+    div .cashback .p2 {
+        font-size: 0.8rem;
+    }
+
+    .produtos-relacionados h3 {
+        padding-top: 30px;
+        font-size: 1rem;
+    }
+
+    div .controleInfo span {
+        font-size: 0.7rem;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    div .btn-carrinho button {
+        font-size: 0.7rem;
+    }
+
+
+    /*caixaSom-flex-colunm*/
+
+    .comprarCaixasom{
+        flex-direction: column;
+        margin-top: 30px;
+        flex: 3;
+    }
+
+    div .caixasomImg{
+        flex: 1;
+        background-size: 130%;
+    }
+
+    div .caixasomInfo{
+        flex: 1;
+    }
+
+    div .caixasomInfo p {
+        font-size: 0.7rem;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    div .caixasomInfo span {
+        font-size: 0.7rem;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+
+    /*area microfone tablet*/
+
+    .comprarMicrofone{
+        flex-direction: column;
+        margin-top: 30px;
+    }
+
+    div .microfoneImg{
+        background-color: white;
+        background-size: 100%;
+    }
+
+    div .microfoneInfo{
+    }
+
+    div .microfoneInfo p {
+        font-size: 0.7rem;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .pix .fa-pix{
+        font-size: 18px;
+    }
+
+    .cartao .fa-credit-card{
+        font-size: 18px;
+    }
+
+    div .cashback .p2 {
+        font-size: 0.8rem;
+    }
+
+    .produtos-relacionados h3 {
+        padding-top: 30px;
+        font-size: 1rem;
+    }
+
+    div .microfoneInfo span {
+        font-size: 0.7rem;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    div .btn-carrinho button {
+        font-size: 0.7rem;
+    }
+
+    /*celular-flex-colunm*/
+
+    .comprarCelular{
+        flex-direction: column;
+        margin-top: 30px;
+        flex: 1;
+    }
+
+    div .celularImg{
+        flex: 1;
+        background-size: 70%;
+        background-color: white;
+    }
+
+    div .celularInfo{
+        flex: 1;
+    }
+
+    div .celularInfo p {
+        font-size: 0.7rem;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    div .celularInfo span {
+        font-size: 0.7rem;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+
+    /*CPU-flex-colunm*/
+
+    .comprarCPU{
+        flex-direction: column;
+        margin-top: 30px;
+        flex: 1;
+    }
+
+    div .cpuImg{
+        flex: 1;
+        background-size: 120%;
+        background-color: white;
+    }
+
+    div .cpuInfo{
+        flex: 1;
+    }
+
+    div .cpuInfo p {
+        font-size: 0.7rem;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    div .cpuInfo span {
+        font-size: 0.7rem;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+}
+
+
+/*==============================================
+        SECTION COMPRAR/VENDER MOUSE
+================================================*/
+
+.vendasGame{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+}
+.comprarMouse{
+    background-color: white;
+    display: flex;
+    height: 90vh;
+    border-radius: 5px;
+}
+
+.mouseImg{
+    background-image: url(../imagens/Mouse2.jpg);
+    background-size: 100%;
+    background-position: center;
+    background-color: white;
+    background-repeat: no-repeat;
+    border: 1px solid #eee;
+    border-radius: 10px;
+    margin: 10px;
+    flex: 3;
+    
+
+    -webkit-transition: -webkit-transform .5s ease;
+    transition: transform .5s ease;
+}
+
+.mouseImg:hover{
+    -webkit-transform: scale(1.1);
+   transform: scale(1.1);
+}
+
+.mouseInfo{
+    flex: 2;
+    margin: 10px;
+}
+
+.pagamentos{
+    display: flex;
+    justify-content: space-between;
+}
+
+.mouseInfo p{
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 40px;
+}
+
+.mouseInfo span{
+    font-size: 1.5rem;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.pix{
+    display: flex;
+    flex: 1;
+}
+
+.cartao{
+    flex: 1;
+}
+
+.pix .desconto{
+    display: flex;
+    color: red;
+    font-weight: 400;
+    font-size: 0.8rem;
+}
+
+.pix p{
+    font-size: .8rem;
+    font-weight: 400;
+}
+
+.fa-pix{
+    color: #32bcad;
+    font-size: 30px;
+}
+
+.fa-credit-card{
+    font-size: 30px;
+}
+
+
+.cartao span{
+    font-size: 1.5rem;
+}
+
+.cartao p{
+    font-size: .8rem;
+    font-weight: 400;
+}
+
+.cashback{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #f1f1f1;
+    height: 60px;
+}
+
+.cashback .p1{
+    font-size: .9rem;
+    font-weight: 400;
+    margin: 0 0 0 10px;
+}
+
+.cashback .p2{
+    font-size: 1rem;
+    font-weight: 600;
+    margin: 0 0 0 10px;
+}
+
+.btn-carrinho button{
+    width: 100%;
+    outline: 0;
+    border: 0;
+    border-radius: 6px;
+    margin-top: 10px;
+    padding: 15px;
+    background-color: #00a441;
+    color: white;
+    font-size: 1rem;
+    text-transform: uppercase;
+    margin-top: 30px;
+}
+
+.btn-carrinho button:hover{
+    background-color: #00a421;
+}
+
+/*==============================================
+        SECTION PRODUTOS RELACIONADOS
+================================================*/
+
+.produtos-relacionados{
+    background-color: #f1f1f1;
+}
+
+.vendas-relacionadas{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: aqua;
+    height: 60vh;
+}
+
+.carrossel-produtos{
+    background-color: white;
+    display: flex;
+    height: 50vh;
+    border-radius: 5px;
+}
+
+
+/*==============================================
+        SECTION COMPRAR/VENDER CONTROLE
+================================================*/
+
+.comprarControle{
+    background-color: white;
+    display: flex;
+    height: 90vh;
+    border-radius: 5px;
+}
+
+.controleImg{
+    background-image: url(../imagens/controle.jpg);
+    background-size: 100%;
+    background-position: center;
+    background-color: white;
+    background-repeat: no-repeat;
+    border: 1px solid #eee;
+    border-radius: 10px;
+    margin: 10px;
+    flex: 3;
+
+    -webkit-transition: -webkit-transform .5s ease;
+    transition: transform .5s ease;
+}
+
+.controleImg:hover{
+    -webkit-transform: scale(1.1);
+   transform: scale(1.1);
+}
+
+.controleInfo{
+    flex: 2;
+    margin: 10px;
+}
+
+.controleInfo p{
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 40px;
+}
+
+.controleInfo span{
+    font-size: 1.5rem;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+
+/*==============================================
+        SECTION COMPRAR/VENDER CAIXA SOM
+================================================*/
+
+.comprarCaixasom{
+    background-color: white;
+    display: flex;
+    height: 90vh;
+    border-radius: 5px;
+}
+
+.caixasomImg{
+    background-image: url(../imagens/caixa-som.jpg);
+    background-size: 130%;
+    background-color: white;
+    background-position: center;
+    background-repeat: no-repeat;
+    border: 1px solid #eee;
+    border-radius: 10px;
+    margin: 10px;
+    flex: 3;
+
+    -webkit-transition: -webkit-transform .5s ease;
+    transition: transform .5s ease;
+}
+
+.caixasomImg:hover{
+    -webkit-transform: scale(1.1);
+   transform: scale(1.1);
+}
+
+.caixasomInfo{
+    flex: 2;
+    margin: 10px;
+}
+
+.caixasomInfo p{
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 40px;
+}
+
+.caixasomInfo span{
+    font-size: 1.5rem;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+
+/*==============================================
+   SECTION PRODUTOS RELACIONADOS CARDS-CAROUSEL
+================================================*/
+
+.cards-carousel{
+    display: flex;
+    justify-content: space-between;
+}
+
+.card{
+    margin: 0.5rem;
+}
+
+.card-title{
+    text-align: center;
+}
+
+.card-body a{
+    display: flex;
+    justify-content: center;
+}
+
+.btn{
+    background-color: #00a441;
+    border-color: #00a421;
+}
+
+.btn:hover{
+    background-color: #00a421
+}
+
+.produtos-relacionados{
+    padding-bottom: 30px;
+}
+
+.produtos-relacionados h3{
+    text-align: center;
+    font-weight: 600;
+}
+
+
+/*==============================================
+        SECTION COMPRAR/VENDER MICROFONE
+================================================*/
+
+.comprarMicrofone{
+    background-color: white;
+    display: flex;
+    height: 90vh;
+    border-radius: 5px;
+}
+
+.microfoneImg{
+    background-image: url(../imagens/microfone00.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border: 1px solid #eee;
+    border-radius: 10px;
+    margin: 10px;
+    flex: 3;
+
+    -webkit-transition: -webkit-transform .5s ease;
+    transition: transform .5s ease;
+}
+
+.microfoneImg:hover{
+    -webkit-transform: scale(1.1);
+   transform: scale(1.1);
+}
+
+.microfoneInfo{
+    flex: 2;
+    margin: 10px;
+}
+
+.microfoneInfo p{
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 40px;
+}
+
+.microfoneInfo span{
+    font-size: 1.5rem;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+
+/*==============================================
+        SECTION COMPRAR/VENDER CELULAR
+================================================*/
+
+.comprarCelular{
+    background-color: white;
+    display: flex;
+    height: 90vh;
+    border-radius: 5px;
+}
+
+.celularImg{
+    background-image: url(../imagens/celular00.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border: 1px solid #eee;
+    border-radius: 10px;
+    margin: 10px;
+    flex: 3;
+
+    -webkit-transition: -webkit-transform .5s ease;
+    transition: transform .5s ease;
+}
+
+.celularImg:hover{
+    -webkit-transform: scale(1.1);
+   transform: scale(1.1);
+}
+
+.celularInfo{
+    flex: 2;
+    margin: 10px;
+}
+
+.celularInfo p{
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 40px;
+}
+
+.celularInfo span{
+    font-size: 1.5rem;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+/*==============================================
+        SECTION COMPRAR/VENDER CPU
+================================================*/
+
+.comprarCPU{
+    background-color: white;
+    display: flex;
+    height: 90vh;
+    border-radius: 5px;
+}
+
+.cpuImg{
+    background-image: url(../imagens/cpu00.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border: 1px solid #eee;
+    border-radius: 10px;
+    margin: 10px;
+    flex: 3;
+
+    -webkit-transition: -webkit-transform .5s ease;
+    transition: transform .5s ease;
+}
+
+.cpuImg:hover{
+    -webkit-transform: scale(1.1);
+   transform: scale(1.1);
+}
+
+.cpuInfo{
+    flex: 2;
+    margin: 10px;
+}
+
+.cpuInfo p{
+    font-size: 1.4rem;
+    font-weight: 600;
+    margin-bottom: 40px;
+}
+
+.cpuInfo span{
+    font-size: 1.4rem;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.pix p{
+    font-size: .8rem;
+    font-weight: 400;
+}
+
+.cartao span{
+    font-size: 1.5rem;
+}
+
+.cartao p{
+    font-size: .8rem;
+    font-weight: 400;
+}
+
+/*==============================================
+             SECTION PLAYSTATION
+================================================*/
+
+.card-playstation{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    width: 27%;
+    height: 350px;
+    border: 1px solid #ccc;
+    margin-bottom: 3%;
+}
+
+.card-playstation p{
+    font-size: 1rem;
+    line-height: 1rem;
+    margin: 0;
+}
+
+.card-playstation .preco{
+    color: red;
+    font-size: 1.2rem;
+}
+
+
+.card-playstation img{
+    width: 70%;
+}
+
+.comprar-produto{
+    text-transform: uppercase;
+    background-color: red;
+    border: 0;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    padding: 8px 20px;
+    border-radius: 5px;
+}
+
+.comprar-produto a{
+    text-decoration: none;
+    color: white;
+}
+
+.comprar-produto:hover{
+    background-color: tomato;
+}
+
+ 

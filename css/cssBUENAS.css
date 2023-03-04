@@ -1,0 +1,474 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@400;600;700&display=swap');
+
+/* CSS Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background: #f8f8f8;
+    height: 80px;
+}
+
+.container {
+   
+
+    max-width: 1200px; 
+   
+}
+
+
+
+/* .container-grid {
+    width: 1200px;
+    margin: 0 auto;
+} */
+
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    height: 107%;
+    
+}
+
+
+
+
+.image-shadow {
+    -webkit-box-shadow: 15px 15px 10px 10px ;
+    box-shadow: inset 15px 15px 10px 10px #13a89e;
+
+    
+    
+    height: 420px;
+    width: 400px;
+    padding: 1%;
+
+}
+
+
+
+.menu {
+    width: 650px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu a {
+    color: #13a89e;
+    text-decoration: none;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* serve para mudar a cor de fundo após a interação como mause */
+.menu a:hover {
+    color: rgb(136, 189, 58);
+}
+
+#barras {
+    display: none;
+    background-color: #13a89e;
+}
+
+.icone-menu {
+    height: 40px;
+}
+
+.logo {}
+
+/* .quemsomos {
+    display: block;
+    text-align: right;
+    align-items: center;
+
+    color: #C31616;
+} */
+
+.banner {
+    height: 610px;  
+    width: 40%;  
+    
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+   
+}
+
+
+.slider{
+    margin: 0 auto;
+    width: 1200px;
+    height: 600px;
+
+    overflow: hidden;
+}
+
+
+
+.slides{
+    width: 400%;
+    height: 400px;
+    display: flex;
+}
+
+.slides input{
+    display: none;
+}
+
+.slide{
+    width: 25%;
+    position: relative;
+    transition: 5s;
+}
+
+.slide img{
+    width: 1200px;
+    height: 600px;
+}
+
+
+.manual-navigation{
+    position: absolute;
+    width: 800px;
+    margin-top: -40px;
+    display: flex;
+    justify-content: center;
+}
+.manual-btn{
+    border: 2px solid green;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 2s;
+}
+
+.manual-btn:not(:last-child){
+    margin-right: 40px;
+}
+
+.manual-btn:hover{
+    background-color: #13a89e;
+}
+
+#radio1:checked ~ .first{
+    margin-left:0;
+
+}
+
+#radio2:checked ~ .first{
+    margin-left:-25%;
+
+}
+#radio3:checked ~ .first{
+    margin-left:-50%;
+
+}
+
+#radio4:checked ~ .first{
+    margin-left:-75%;
+
+}
+
+.navegation-auto div{
+    border: 2px solid blue;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 5s;
+}
+
+.navigation-auto{
+    position: absolute;
+    width: 800px;
+    margin-top: 360px;
+    display: flex;
+    justify-content: center;
+    transition: 5s;
+}
+
+.navigation-auto div:not(:last-child){
+    margin-right: 40px;
+
+}
+
+/* replicar ate numero 4*/
+#radio1:checked ~ .navegation-auto .auto-btn1{
+    background-color: #fff;
+}
+
+#radio2:checked ~ .navegation-auto .auto-btn2{
+    background-color: #fff;
+}
+
+#radio3:checked ~ .navegation-auto .auto-btn3{
+    background-color: #fff;
+}
+
+#radio4:checked ~ .navegation-auto .auto-btn4{
+    background-color: #fff;
+}
+
+
+
+.posicionamento-banner {
+    height: 100%;
+    width: 122px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    
+}
+
+/* main img {
+    height: 520px;
+    width: 510px;
+
+} */
+
+/* .logocontato{
+    -webkit-box-shadow: 5px 5px 10px 10px #000000;
+    box-shadow:  5px 5px 10px 10px #000000;
+    
+    justify-content: space-between;
+
+   
+    padding: 1%;
+
+    background: #13a89e;
+    
+    width: 620px;
+    height: 260px;
+} */
+
+.mapa {
+
+    display:flex;
+
+    justify-content: center;
+    justify-content: space-between;
+
+   
+    padding: 1%;
+
+    background: #13a89e;
+    
+}
+
+.gif {
+       text-align: center;
+       padding: 15px;
+}
+
+
+.message::first-letter {
+    text-transform: uppercase;
+    
+}
+ 
+.message-texto {
+    padding: 25px;
+    width: 1200px;
+    margin: 10px;
+    
+}
+
+/* .corpo{
+    width: 960px;
+    margin: auto;
+}
+
+.conteudo{
+display: table;
+
+}
+
+.imagem{
+
+    display: table-cell;
+    float: left;
+}
+
+
+.texto{
+    display: table-cell;
+    float: left;
+    
+    width: 300px;
+    margin-top: -10px;
+    margin-left: 10px ;
+
+} */
+
+
+#imagem1{
+
+    float: right;
+    margin: auto; 
+}
+
+#imagem2{
+
+    float: left;
+    margin: 15px; 
+}
+
+
+  p {
+    
+   
+    
+    padding: 0%;
+    text-indent: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+} 
+
+
+.conteudo-banner {
+    
+    height: 300px;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    
+    color: white;
+}
+
+
+
+.texto-rodape {
+    padding: 50px;
+}
+
+
+
+
+
+
+
+footer {
+    /* margin: 1.9%; */
+
+    background-color: snow;
+    width: 100%;
+    height: 30%;
+    position: sticky;
+    bottom: 0;
+    padding: 5px;
+    box-sizing: border-box;
+    /* text-align: center; */
+    /* font-family: sans-serif; */
+    background: #f8f8f8;
+    color: #00318b;
+    
+
+}
+
+.rodape {
+    padding: 1px 0;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+
+    color: #13a89e;
+}
+
+.links-footer {
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1%;
+}
+
+.links-footer h2 {
+    font-family: 'Titillium Web';
+    font-size: 24px;
+}
+
+.links-footer a {
+    font-family: 'Titillium Web';
+    font-size: 14px;
+    color: #13a89e;
+    text-decoration: none;
+    
+}
+
+.links-footer a:hover {
+    color: rgb(136, 189, 58);
+}
+
+
+
+.siga-nos {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 0.8em;
+}
+
+.siga-nos h2 {
+    font-family: 'Titillium Web';
+    font-size: 23px;
+}
+
+@media screen and (max-width: 1100px) {
+    .cabecalho {
+        position: relative;
+    }
+    
+    .menu {
+        display: none;
+
+        position: absolute;
+        top: 80px;
+        right: 0px;
+
+        height: 400px;
+
+        flex-direction: column;
+        justify-content: space-around;
+        background-color: #1E1C21;
+        align-items: center;
+
+    }
+
+    .menu-ativo {
+        display: flex;
+    }
+
+    #barras {
+        display: inline-block;
+    }
+}
+ 
+    
+
+@media screen and (max-width: 1000px) {
+    .conteudo-sobre {
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    header {
+        background-color: snow;
+    }
+
+    @media screen and (max-width: 768px) {
+        footer {
+            background-color: snow;
+        }
+
+    .logo {
+        width: 100px;
+    }
+}
+}
