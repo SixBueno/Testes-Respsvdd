@@ -24,7 +24,7 @@ hr:not([size]) {
 
 .comprar{
     text-transform: uppercase;
-    background-color: red;
+    background-color: #13a89e;
     border: 0;
     margin-top: 20px;
     padding: 8px 20px;
@@ -276,15 +276,19 @@ form img{
 }
 
 .banner-gb1{
-    background-image: url(../imagens/banner-gb1.jpg);
+    background-image: url(../imagens/banner-generic-1.jpeg);
 }
 
 .banner-gb2{
-    background-image: url(../imagens/banner-gb2.jpg);
+    background-image: url(../imagens/banner-generic-2.jpg);
 }
 
 .banner-gb3{
-    background-image: url(../imagens/banner-gb3.jpg);
+    background-image: url(../imagens/banner-generic-3.jpg);
+}
+
+.banner-gb4{
+    background-image: url(../imagens/banner-generic-4.jpg);
 }
 
 
@@ -365,7 +369,7 @@ form img{
 }
 
 .cards-destaques .cards-00{
-    background-image: url(../imagens/bannerGamer.jpg);
+    background-image: url(../imagens/Logo-backgrouand-2.jpg);
     background-position: center;
     background-size: cover;
     width: 30%;
@@ -418,7 +422,7 @@ form img{
 .info-produtos p{
     max-width: 190px;
     font-size: 0.8rem;
-    color: white;
+    color: #13a89e;
     margin: 0;
 }
 

@@ -19,9 +19,9 @@ function mostrarContato() {
 
 let slideAtual = 1;
 
-let listaSlide = ["banner-gb1", "banner-gb2", "banner-gb3"]
+let listaSlide = ["banner-gb1", "banner-gb2", "banner-gb3","banner-gb4"]
 
-setInterval(slide, 3000)
+setInterval(slide, 4000)
 
 function slide(){
 
