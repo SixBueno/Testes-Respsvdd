@@ -1,6 +1,26 @@
 @import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@700&family=Montserrat:wght@300;500;700&display=swap');
 
 
+
+/*=========================================
+               BACKGOUAND IMG
+===========================================*/
+
+/* header {
+
+    background-image: url(../imagens/backgr-img.png);
+    background-size: 50%;
+
+} */
+
+body {
+
+    background-image: url(../imagens/backgr-img.png);
+    background-size: 50%;
+}
+
+
+
 /*=========================================
                FONTE UNIVERSAL
 ===========================================*/
@@ -51,7 +71,7 @@ hr:not([size]) {
     justify-content: center;
     align-items: center;
     height: 40px;
-    background-color: #181717;
+    background-color: #13a89e;
     position: relative;
 }
 
@@ -162,7 +182,7 @@ hr:not([size]) {
 }
 
 .menu-login .logo{
-    width: 200px;
+    width: 300px;
 }
 
 form{
@@ -260,7 +280,7 @@ form img{
 }
 
 .menu a:hover{
-    color: #4E9443;
+    color: #13a89e;
 }
 
 
@@ -335,13 +355,21 @@ form img{
 
 
 .historia-buenas h2 {
-    justify-content: center;
+    /* justify-content: center; */
     text-transform: uppercase;
     display: flex;
     padding: 20px;
     
 }
 
+
+.historia-buenas h1 {
+    justify-content: center;
+    text-transform: uppercase;
+    display: flex;
+    padding: 30px;
+    
+}
 
 /*=============================
         SESSÃO DESTAQUES
