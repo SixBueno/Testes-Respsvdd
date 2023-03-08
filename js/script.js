@@ -8,6 +8,8 @@ function mostrarMenu() {
     }
 }
 
+
+
 function mostrarContato() {
     if (menu.style.display == "none") {
         menu.style.display = "flex"

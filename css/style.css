@@ -6,12 +6,12 @@
                BACKGOUAND IMG
 ===========================================*/
 
-/* header {
-
+header {
+    
     background-image: url(../imagens/backgr-img.png);
-    background-size: 50%;
+    background-size: 30%;
 
-} */
+}
 
 body {
 
@@ -143,17 +143,24 @@ hr:not([size]) {
 }
 
 .menu-barra{
-    display: flex
+    display: flex;
+    background-clip: padding-box;
 }
 
 .barra-menu{
     display: none;
+    background-clip: padding-box;
+    
 }
 
 .menu-none{
     display: none;
 }
 
+.solido{
+    background-clip: padding-box;
+    background-color: #13a89e;
+}
 
 /*=================================
     ÁREA HEADER LOGIN - SEARCH
@@ -182,6 +189,7 @@ hr:not([size]) {
 }
 
 .menu-login .logo{
+    
     width: 300px;
 }
 
@@ -397,7 +405,7 @@ form img{
 }
 
 .cards-destaques .cards-00{
-    background-image: url(../imagens/Logo-backgrouand-2.jpg);
+    background-image: url(../imagens/);
     background-position: center;
     background-size: cover;
     width: 30%;
@@ -534,7 +542,7 @@ hr {
 footer{
     display: flex;
     align-items: center;
-    background-color: #4E9443;
+    background-color: #13a89e;
     width: 100%;
     height: 300px;
 }
@@ -607,6 +615,7 @@ footer{
 ===============================*/
 
 @media (min-width: 769px) and (max-width: 1024px){
+    
     h4 {
         font-size: 1.2rem;
     }
@@ -702,7 +711,7 @@ footer{
         flex-direction: column;
         justify-content: space-around;
         text-align: center;
-        background-color: #4E9443;
+        background-color: #13a89e;
         height: 300px;
         width: 100vw;
         position: absolute;
@@ -724,6 +733,7 @@ footer{
 
     .barra-menu{
         display: inline-block;
+        background-color: black;
     }
 
     .usuario img{
@@ -966,6 +976,7 @@ footer{
     .minha-conta-425{
         display: flex;
         width: 100%;
+        
     }
 
     .usuario img {
@@ -983,17 +994,20 @@ footer{
 
     .barra-menu{
         display: inline-block;
+        background-color: #13a89e;
     }
 
     .menu-none{
         display: flex;
     }
 
-    .menu{
+    .menu{        
         flex-direction: column;
         justify-content: space-around;
         text-align: center;
-        background-color: #4E9443;
+        
+        
+        background-color: #13a89e;
         height: 300px;
         width: 100vw;
         position: absolute;
@@ -1002,7 +1016,7 @@ footer{
     }
 
     .menu a{
-        color: white;
+        color: white ;
     }
 
     .menu a:hover{
@@ -1039,7 +1053,12 @@ footer{
     }
 
     .menu-login .logo {
-        width: 50px;
+        display: flex;
+        background-clip: padding-box;
+        /* opacity: 0.3; */
+        justify-content: center;
+        /* position: relative; */
+        width: 100%;
     }
 
     .minha-conta{
@@ -1113,7 +1132,7 @@ footer{
 
     .comprar{
         text-transform: uppercase;
-        background-color: red;
+        background-color: #13a89e;
         border: 0;
         margin-top: 10px;
         margin-bottom: 10px;
