@@ -357,9 +357,14 @@ form img{
         HISTORIA BUENAS
 ===============================*/
 
-.historia-buenas {
-    
+.principio-valores{
+    display: flex;
+    /* justify-content: space-between;
+    justify-content: space-around; */
 }
+
+
+
 
 
 .historia-buenas h2 {
@@ -649,9 +654,7 @@ footer{
 
     /* venda controle */
 
-    div .controleImg{
-
-    }
+    
 
     div .controleInfo span {
         font-size: 1rem;
@@ -969,9 +972,7 @@ footer{
 
 @media (max-width: 425px){
 
-    .header-minhaConta{
-
-    }
+    
 
     .minha-conta-425{
         display: flex;
@@ -1386,8 +1387,7 @@ footer{
         background-size: 100%;
     }
 
-    div .microfoneInfo{
-    }
+    
 
     div .microfoneInfo p {
         font-size: 0.7rem;
