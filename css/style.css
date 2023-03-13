@@ -42,7 +42,7 @@ hr:not([size]) {
                BOTÃO UNIVERSAL
 ===========================================*/
 
-.comprar{
+.leia-mais{
     text-transform: uppercase;
     background-color: #13a89e;
     border: 0;
@@ -51,12 +51,12 @@ hr:not([size]) {
     border-radius: 5px;
 }
 
-.comprar a{
+.leia-mais a{
     text-decoration: none;
     color: white;
 }
 
-.comprar:hover{
+.leia-mais:hover{
     background-color: tomato;
 }
 
@@ -265,8 +265,26 @@ form img{
 }
 
 /*===================================
+        ÁREA img site-em-construcao
+=====================================*/
+
+.site-construcao{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    
+    
+    height: 800px;
+    width: 620px;
+}
+
+
+
+/*===================================
         ÁREA HEADER OPÇÕES DO MENU
 =====================================*/
+
+
 
 .opc-menu{
     display: flex;
@@ -797,7 +815,7 @@ footer{
         width: 32%;
     }
 
-    .comprar{
+    .leia-mais{
         margin-top: 15px;
         padding: 4px 10px;
         font-size: 0.7rem;
@@ -1131,7 +1149,7 @@ footer{
         margin-bottom: 20px;
     }
 
-    .comprar{
+    .leia-mais{
         text-transform: uppercase;
         background-color: #13a89e;
         border: 0;
@@ -1142,7 +1160,7 @@ footer{
 
     }
 
-    .comprar a{
+    .leia-mais a{
         font-size: 12px;
     }
 
